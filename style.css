@@ -19,4 +19,4 @@ main {
 #box1 {grid-area: b1; }
 #box2 {grid-area: b2; }
 
-div { border: thin gray solid; }
+/* div { border: thin gray solid; } */
