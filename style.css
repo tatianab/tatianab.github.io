@@ -6,3 +6,15 @@ img {
 body {
   font-family: monospace;
 }
+
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "ms ms"
+    "b1 b2";
+}
+
+#message { grid-area: ms; }
+#box1 {grid-area: b1; }
+#box2 {grid-area: b2; }
