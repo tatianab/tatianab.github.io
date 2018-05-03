@@ -18,3 +18,5 @@ main {
 #message { grid-area: ms; }
 #box1 {grid-area: b1; }
 #box2 {grid-area: b2; }
+
+div { border: thin gray solid; }
