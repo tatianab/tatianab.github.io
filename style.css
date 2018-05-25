@@ -1,22 +1,24 @@
-img {
-  width: 100%;
-  height: auto;
-}
- 
 body {
-  font-family: monospace;
+	font-family: monospace;
+	font-size: 20px;
+	line-height: 28px;
+}
+
+header {
+	display: flex;
+	align-items: center;
+}
+
+header h1 {
+	margin-left: 2%;
+}
+
+img {
+	width: auto;
+	height: 12vw;
 }
 
 main {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-areas:
-    "ms ms"
-    "b1 b2";
+	margin: 5%;
+	margin-right: 20%;
 }
-
-#message { grid-area: ms; }
-#box1 {grid-area: b1; }
-#box2 {grid-area: b2; }
-
-/* div { border: thin gray solid; } */
